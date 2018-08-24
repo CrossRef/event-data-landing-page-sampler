@@ -4,7 +4,7 @@ Sample DOIs from Crossref and DataCite and analyze their landing pages.
 
 Produce the "doi-domain" Artifact for Event Data to help Agents search and identify DOIs.
 
-## Data Collection and Storage
+## Data Collection and Storage
 
 The following entities are stored in Elasticsearch, as they pass through the pipeline. Each stage's entries are a superset of the previous stage, and all keys are namespaced. This denormalisation makes the process fit the non-join model nicely, and preserves the original values.
 
