@@ -204,9 +204,7 @@
       {:url ["pid" "data" "_search"]
        :method :post
        :body {:size 100 
-              ; TODO
-              ; :query {:match {:pid/last-snapshot 0}}
-              }})
+              :query {:match {:pid/last-snapshot 0}}}})
      :body
      :hits
      :hits))
